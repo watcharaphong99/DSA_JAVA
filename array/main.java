@@ -33,8 +33,6 @@ public class main {
         // DESC -> Primitive -> reverse by ourselves
        
         Arrays.sort(numbers);
-       
-    
         System.out.println("==After Sort===");
        var numberBoxType =   Arrays.stream(numbers)
         .boxed()
